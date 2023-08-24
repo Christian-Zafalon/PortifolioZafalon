@@ -1,0 +1,24 @@
+.about-img {
+    position: relative;
+    width: 25vw;
+    /* Reduza o valor para diminuir o tamanho padrão */
+    max-width: 400px;
+    /* Reduza o valor para diminuir o tamanho máximo */
+    margin-left: 15px;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white,
+            0 0 50px white;
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
