@@ -6,6 +6,7 @@
     max-width: 400px;
     /* Reduza o valor para diminuir o tamanho máximo */
     margin-left: 15px;
+    margin-right: 6rem;
 
     img {
         width: 100%;
@@ -46,3 +47,9 @@ span {
 .about-content h3 {
     font-size: 2.6rem;
 }
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
