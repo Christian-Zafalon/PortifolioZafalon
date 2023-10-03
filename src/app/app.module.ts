@@ -8,13 +8,15 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { SharedModule } from './shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { PortifolioComponent } from './pages/portifolio/portifolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ServicesComponent
+    ServicesComponent,
+    PortifolioComponent
   ],
   imports: [
     BrowserModule,
