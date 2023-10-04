@@ -1,12 +1,33 @@
 .portifolio-box {
-    position: relative;
-    width: 25vw; /* Reduza o valor para diminuir o tamanho padrão */
-    max-width: 400px; /* Reduza o valor para diminuir o tamanho máximo */
-    margin-left: 15px;
-  
-    img {
-      width: 100%;
-      max-width: 100%;
-      border-radius: 10px;
-    }
+  position: relative;
+  width: 25vw;
+  /* Reduza o valor para diminuir o tamanho padrão */
+  max-width: 400px;
+  /* Reduza o valor para diminuir o tamanho máximo */
+  margin-left: 15px;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
   }
+}
+
+.portifolio {
+  background: var(--second-bg-color);
+}
+
+.portifolio h2 {
+  margin-bottom: 4rem;
+}
+
+.portifolio-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+// .portifolio-container .portifolio-box{
+
+// }
