@@ -9,6 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { AboutComponent } from './pages/about/about.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { PortifolioComponent } from './pages/portifolio/portifolio.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PortifolioComponent } from './pages/portifolio/portifolio.component';
     HomeComponent,
     AboutComponent,
     ServicesComponent,
-    PortifolioComponent
+    PortifolioComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
