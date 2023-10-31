@@ -1,11 +1,11 @@
 <header class="header">
-    <a href="#" class="logo">C.Z.Script</a>
-    <i class='bx bx-menu' id="menu-icon"></i>
-    <nav class="navbar">
-        <a href="#home" class="home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portifolios">Portifolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <a href="#" class="logo">C.Z.Script</a>
+  <i class="bx bx-menu" id="menu-icon"></i>
+  <nav class="navbar">
+    <a [ngClass]="{ active: home }" href="#home" class="home">Home</a>
+    <a [ngClass]="{ active: about }" href="#about">About</a>
+    <a [ngClass]="{ active: services }" href="#services">Services</a>
+    <a [ngClass]="{ active: portifolio }" href="#portifolios">Portifolio</a>
+    <a [ngClass]="{ active: contact }" href="#contact">Contact</a>
+  </nav>
 </header>
