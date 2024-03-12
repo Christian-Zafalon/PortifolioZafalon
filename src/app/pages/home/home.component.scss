@@ -21,8 +21,10 @@
 
 .home-img {
   position: relative;
-  width: 25vw; /* Reduza o valor para diminuir o tamanho padrão */
-  max-width: 400px; /* Reduza o valor para diminuir o tamanho máximo */
+  width: 25vw;
+  /* Reduza o valor para diminuir o tamanho padrão */
+  max-width: 400px;
+  /* Reduza o valor para diminuir o tamanho máximo */
   margin-left: 15px;
 
   img {
@@ -59,15 +61,22 @@
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-@media (max-width: 991px){
-  .header {
-    padding: 2rem 3%;
-  }
-  section {
-    padding: 10rem 3% 2rem;
-  }
-  .footer{
-    padding: 2rem 3%;
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
   }
 }
 
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 3%;
+  }
+
+  section {
+    padding: 10rem 3% 2rem;
+  }
+
+  .footer {
+    padding: 2rem 3%;
+  }
+}

@@ -11,6 +11,11 @@ export class NavbarComponent {
   services: boolean = false;
   portifolio: boolean = false;
   contact: boolean = false;
+  menuColapse: boolean = false;
+
+  menuIconFunction() {
+    this.menuColapse = !this.menuColapse;
+  }
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {

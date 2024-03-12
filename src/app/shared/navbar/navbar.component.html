@@ -1,7 +1,8 @@
 <header class="header">
   <a href="#" class="logo">C.Z.Script</a>
-  <i class="bx bx-menu" id="menu-icon"></i>
-  <nav class="navbar">
+  <i [ngClass]="[menuColapse ? 'bx bx-x' : 'bx bx-menu']" class="bx bx-menu" id="menu-icon"
+    (click)="menuIconFunction()"></i>
+  <nav class="navbar" [ngClass]="{ active: menuColapse }">
     <a [ngClass]="{ active: home }" href="#home" class="home">Home</a>
     <a [ngClass]="{ active: about }" href="#about">About</a>
     <a [ngClass]="{ active: services }" href="#services">Services</a>
