@@ -1,9 +1,7 @@
 .portifolio-box {
   position: relative;
   width: 25vw;
-  /* Reduza o valor para diminuir o tamanho padrão */
   max-width: 400px;
-  /* Reduza o valor para diminuir o tamanho máximo */
   margin-left: 15px;
 
   img {
@@ -41,7 +39,6 @@
   display: flex;
 }
 
-
 .portifolio-box .portifolio-layer {
   position: absolute;
   bottom: 0;
@@ -61,7 +58,6 @@
 
 .portifolio-box:hover .portifolio-layer {
   transform: translateY(0%);
-
 }
 
 .portifolio-layer h4 {
@@ -88,22 +84,26 @@
   color: var(--second-bg-color);
 }
 
-@media (max-width: 768px) {
-  .portifolio h2 {
-    margin-bottom: 3rem;
-  }
+// /* Media query para telas médias (tablets) */
+// @media (max-width: 991px) {
+//   .portifolio {
+//     padding-bottom: 7rem;
+//   }
 
-  .portifolio h4 {
-    margin-top: 25rem;
-  }
+//   .portifolio-container {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }
+
+/* Media query para telas pequenas (celulares) */
+@media (max-width: 768px) {
 
   .portifolio-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
-}
 
-@media (max-width: 991px) {
-  .portifolio {
-    padding-bottom: 7rem;
+  .portifolio-box {
+    width: 90%;
+    margin: 0 auto 2rem;
   }
 }
