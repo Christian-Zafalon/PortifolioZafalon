@@ -85,15 +85,20 @@
 }
 
 // /* Media query para telas médias (tablets) */
-// @media (max-width: 991px) {
-//   .portifolio {
-//     padding-bottom: 7rem;
-//   }
+@media (max-width: 991px) {
+  // .portifolio {
+  //   padding-bottom: 7rem;
+  // }
 
-//   .portifolio-container {
-//     grid-template-columns: repeat(2, 1fr);
-//   }
-// }
+  .portifolio-box {
+    width: 90%;
+    margin: 0 auto 2rem;
+  }
+
+  .portifolio-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 /* Media query para telas pequenas (celulares) */
 @media (max-width: 768px) {
